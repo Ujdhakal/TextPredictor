@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Text predictor app!</title>
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <div class='main'>
+      <h1>Text predictor app</h1>
+      <div>
+        Input text: <input type="text" id="textinput" name="textinput" onkeyup="predictNext(this.value);">
+        <br>
+        <br>
+        <span>Predictions</span>
+        <ol>
+          <li><p id="firstPredict"></p></li>
+          <li><p id="secondPredict"></p></li>
+          <li><p id="thirdPredict"></p></li>
+          <li><p id="fourthPredict"></p></li>
+          <li><p id="fifthPredict"></p></li>
+        </ol>
+      </div>
+    </div>
+
+  </body>
+</html>
